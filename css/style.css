@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper{
+    width: 1460px;
+    margin: 0;
+    height: 5200px;
+}
+.container{
+    display: flex;
+}
+.top{
+    display: flex;
+    border-bottom: 0.1px solid rgb(42, 41, 44);
+background-color: rgb(255, 255, 255);
+}
+.top_container{
+    display: flex;
+    width: 1460px;
+    height: 128px;
+    padding: 15px 140px;
+    justify-content: space-between;
+}
+.top-container-left{
+    display: flex;
+    width: 210px;
+    height: 110px;
+}
+.top_container-left img{
+    width: 180px;
+    height: 100px;
+}
+.top_container-right{
+width: 900px;
+height: 90px;
+}
+.container-right-top{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 320px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+.container-title{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+}
+.container-title i{
+    margin-left: 5px;
+    height: 6px;
+}
+.container-right-top{
+    display: flex;
+}
+.top-icons img{
+    width: 30px;
+    height: 25px;
+}
+.container-right-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+    align-items: center;
+}
+.search {
+    display: flex;
+    width: 240px;
+    height: 35px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid rgb(167, 165, 165);
+}
+
+.search img{
+    width: 15px;
+    height: 20px;
+    margin-left: 1px;
+}
+.container-right-bottom .search{
+    width: 168px;
+    justify-content: space-around;
+}
+.container-right-bottom .search{
+    justify-content: space-around;
+}
+.container-right-bottom .bottom-search .search img{
+    margin-left: 40px;
+}
+.container-right-bottom .bottom-search .search p{
+    font-size: 12px;
+    margin-right: 50px;
+}
+.container-right-top .top-search .search p{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.container-right-top .top-search .search img{
+    margin-left: 10px;
+}
+.shopping-cart{
+    border: 1px solid #e9e2d5;
+    border-radius: 5px;
+    padding: 4px 15px;
+    margin-left: 10px;
+    text-align: center;
+}
+.intro-menu-search{
+    float: left;
+    padding: 3px 10px;
+    position: relative;
+    margin-top: -5px;
+}
+.intro-menu-search .nav-search button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 11px;
+    left: 16px;
+}
