@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/loginstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Đăng nhập tài khoản</title>
+</head>
+<body>
+    <div class="menu-top">
+        <div class="container">
+            <div class="top">
+                <div class="top_container">
+                    <div class="top_container-left">
+                        <img src="/images/logo.png" alt="">
+                    </div>
+                    <div class="top_container-right">
+                        <div class="container-right-top">
+                            <div class="top-icons">
+                                <img src="/images/iocn_1.png" alt="">
+                            </div>
+                            <div class="top-icons">
+                                <img src="/images/icon_2.png" alt="">
+                            </div>
+                            <div class="top-icons">
+                                <img src="/images/icon_3.png" alt="">
+                            </div>
+                            <div class="top-icons">
+                                <img src="/images/icon_4.png" alt="">
+                            </div>
+                            <div class="container-title">
+                                <h2>Đăng nhập</h2>
+                            </div>
+                            <div class="container-title">
+                                <h2>Đăng ký</h2>
+                            </div>
+                            <div class="intro-menu-search">
+                                <form action="/search" method="get" class="nav-search">
+                                    <input type="text" name="query" placeholder="Tìm kiếm" class>
+                                    <button type="submit">
+                                        <span>
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                        </span>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="container-right-bottom">
+                            <div class="container-title">
+                                <h2>Trang chủ</h2>
+                            </div>
+                            <div class="container-title">
+                                <h2>Giới thiệu</h2>
+                            </div>
+                            <div class="container-title">
+                                <h2>Sản phẩm</h2>
+                                <i class="fa fa-angle-down"></i>
+                            </div>
+                            <div class="container-title">
+                                <h2>Blog</h2>
+                            </div>
+                            <div class="container-title">
+                                <h2>Tuyển dụng</h2>
+                            </div>
+                            <div class="container-title">
+                                <h2>Liên hệ</h2>
+                            </div>
+                            <div class="shopping-cart">
+                                <a class="hover-color" href="/cart">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    " Giỏ hàng ("
+                                    <span class="count">0</span>
+                                    ")"
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menuhome" >
+        <div class="container" style="padding: 0px 18px;" >
+            <div class="backhome" itemscope itemtype="">
+                <a itemprop="url" title="Quay lại trnag chủ" href="/html/home.html">
+                    <span itemprop="title">Trang chủ</span>
+                </a>
+                <i class="fa fa-angle-right" aria-hidden="false"></i>
+                " Đăng nhập tài khoản "
+            </div>           
+        </div>
+    </div>
+    <section class="section-login">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                <div class="login-form-wrap clearfix">
+                    <form method="post" action="/account/login" id="customer_login" accept-charset="UTF-8"><input name="FormType" type="hidden" value="customer_login"/><input name="utf8" type="hidden" value="true"/>
+                    
+        
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="col-sm-12">
+                            <h1>Đăng nhập</h1>
+                            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" placeholder="Email" required class="input-focus">
+                            <input type="password" name="password" placeholder="Mật khẩu" class="input-focus" required>
+                        </div>
+                        <div class="forget col-sm-4">
+                            <a href="#recover" onclick="showRecoverPasswordForm();return false;" id="RecoverPassword">Quên mật khẩu?</a>
+                        </div>
+                        <div class="sign-up col-sm-8">
+                            <span>Bạn chưa có tài khoản? </span>
+                            <a href="/account/register"> Đăng ký ngay</a>
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="submit" class="taberna-btn bg-color" value="Đăng nhập">
+                        </div>
+                    </div>
+                    </form>
+                    <div id="social_login_widget"></div>
+                    <div id="recover_password" style="display: none;">
+                        <form method="post" action="/account/recover" id="recover_customer_password" accept-charset="UTF-8"><input name="FormType" type="hidden" value="recover_customer_password"/><input name="utf8" type="hidden" value="true"/>
+                        
+    
+                        <div class="col-sm-10 col-sm-offset-1">							
+                            <div class="col-sm-12">							
+                                <h2>Lấy lại mật khẩu</h2>					
+                                <p style="text-align:center;">Chúng tôi sẽ gửi email kích hoạt việc lấy lại mật khẩu.</p>
+                                <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required class="input-focus">
+                            </div>
+                            <div class="forget col-sm-6">
+                                <a href="javascript:;" onclick="hideRecoverPasswordForm();return false;">Quay lại</a>
+                            </div>
+                            <div class="col-sm-12">								
+                                <input type="submit" class="taberna-btn bg-color" value="Gửi">
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div> <!-- end login-form-wrap -->
+            </div> <!-- end col-sm-8 -->
+        </div> <!-- end container -->
+    </section> <!-- end section-login -->
+    <div class="bottom-taitro">
+        <div class="doitac">
+            <h1>Nhà phân phối</h1>
+            <div class="logo_doitac">
+                <img src="/images/pp_1.jpg" alt="">
+                <img src="/images/pp_2.jfif" alt="">
+                <img src="/images/pp_3.jfif" alt="">
+                <img src="/images/pp_4.jpg" alt="">
+                <img src="/images/pp_5.jfif" alt="">
+            </div>
+        </div>
+        <div class="infor">
+            <div class="theodoi">
+                <div class="col-lg-3 col-md-3">
+                    <h6 class="title-news">THEO DÕI BẢN TIN</h6>
+                    <div class="newsletters">
+                        <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class="form-group">
+                                <input class="input-mail" id="mce-EMAIL" type="email" name="EMAIL" size="18" placeholder="Nhập email" value="" autocorrect="off" autocapitalize="off" required/>
+                                <button type="submit" name="submitNewsletter" class="bgcolor-hover border-hover btn btn-warning btn-submit subcribe " id="mc-embedded-subscribe"> <span>Đăng ký</span> </button>
+                            </div>
+                        </form>
+                    </div>
+                    <p class="newsletters-note">Nhận được những thông tin mới nhất từ website</p>
+                    <div >
+                        <a class="grouped_elements" rel="group1" href="http://www.online.gov.vn/CustomWebsiteDisplay.aspx?DocId=17852">
+                            <img src="//bizweb.dktcdn.net/100/288/529/themes/628280/assets/client6.png?1547996338894" alt="http://www.online.gov.vn/CustomWebsiteDisplay.aspx?DocId=17852&amp;fbclid=IwAR0Jvwz9bid2e0mYjjm83_O9wFgA00ztix8Z5GKghGj4y7-4q5sVfjg4Xmo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="CTY">
+                <h6>Công ty thương mại và dịch vụ</h6>
+                <div class="cty">
+                    <div class="fa fa-home border"></div>
+                    <div class="inforcty">
+                        <h6>Trụ sở tại Hà Nội</h6>
+                        <p>Số 67 ngõ 192, phố Lê Trọng Tấn, P. Định Công, Q. Hoàng Mai, HN.
+
+                            Email: congty@tradaigia.vn</p>
+                    </div>
+                </div>
+                <div class="cty">
+                    <div class="fa fa-map-marker border"></div>
+                    <div class="inforcty">
+                        <h6>Chi nhánh tại TPHCM</h6>
+                        <p>Số 394/4 - đường TTH 07, phường Tân Thới Hiệp, Quận 12, TP.HCM
+
+                            Email: chinhanh@tradaigia.vn</p>
+                    </div>
+                </div>
+                <div class="cty">
+                    <div class="fa fa-home border"></div>
+                    <div class="inforcty">
+                        <h6>Nhà máy tại Thái Nguyên</h6>
+                        <p>Xóm Đồng Lạnh, xã Phúc Xuân, TP.Thái Nguyên, tỉnh Thái Nguyên.</p>
+                    </div>
+                </div>
+                <div class="cty">
+                    <div class="fa fa-mobile border"></div>
+                    <div class="inforcty">
+                        <h6>Hotline</h6>
+                        <p>0902.210.348</p>
+                    </div>
+                </div>
+            </div>
+            <div class="support">
+                <div class="widget-wrap">            
+                    <h6 class="title-news">Hỗ trợ</h6>
+
+                    <ul class="widget-ul links">
+                        
+                        <li class="clearfix">
+                            <i class="fa fa-angle-right"></i>
+                            <a href="/html/home.html" class="">Trang chủ</a>
+                        </li>
+                        
+                        <li class="clearfix">
+                            <i class="fa fa-angle-right"></i>
+                            <a href="/collections/all" class="">Sản phẩm</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="connect">
+                <h6>Kết nối với chúng tôi</h6>
+                <div class="mxh">
+                    <img src="/images/iocn_1.png" alt="">
+                    <img src="/images/icon_2.png" alt="">
+                    <img src="/images/icon_3.png" alt="">
+                    <img src="/images/icon_4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/loginscript.js"></script>
+</body>
+</html>
