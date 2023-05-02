@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/loginstyle.css">
+    <!-- <link rel="stylesheet" href="/css/loginstyle.css">
+    <link rel="stylesheet" href="/css/style.css"> -->
+    <link rel="stylesheet" href="/css/spstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Đăng nhập tài khoản</title>
+    <title>Sản phẩm</title>
 </head>
 <body>
     <div class="menu-top">
@@ -37,7 +39,7 @@
                                 <a href="/html/login.html"><h2>Đăng nhập</h2></a>
                             </div>
                             <div class="container-title">
-                                <a href="/html/login.html"> <h2>Đăng ký</h2></a>
+                                <a href="/html/login.html"><h2>Đăng ký</h2></a>
                             </div>
                             <div class="intro-menu-search">
                                 <form action="/search" method="get" class="nav-search">
@@ -91,70 +93,94 @@
                     <span itemprop="title">Trang chủ</span>
                 </a>
                 <i class="fa fa-angle-right" aria-hidden="false"></i>
-                " Đăng nhập tài khoản "
+                Tất cả sản phẩm
             </div>           
         </div>
     </div>
-    <section class="section-login">
-        <div class="container">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-                <div class="login-form-wrap clearfix">
-                    <form method="post" action="/account/login" id="customer_login" accept-charset="UTF-8"><input name="FormType" type="hidden" value="customer_login"/><input name="utf8" type="hidden" value="true"/>
-                    
-        
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <div class="col-sm-12">
-                            <h1>Đăng nhập</h1>
-                            <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" name="email" placeholder="Email" required class="input-focus">
-                            <input type="password" name="password" placeholder="Mật khẩu" class="input-focus" required>
-                        </div>
-                        <div class="forget col-sm-4">
-                            <a href="#recover" onclick="showRecoverPasswordForm();return false;" id="RecoverPassword">Quên mật khẩu?</a>
-                        </div>
-                        <div class="sign-up col-sm-8">
-                            <span>Bạn chưa có tài khoản? </span>
-                            <a href="/account/register"> Đăng ký ngay</a>
-                        </div>
-                        <div class="col-sm-12">
-                            <input type="submit" class="taberna-btn bg-color" value="Đăng nhập">
-                        </div>
-                    </div>
-                    </form>
-                    <div id="social_login_widget"></div>
-                    <div id="recover_password" style="display: none;">
-                        <form method="post" action="/account/recover" id="recover_customer_password" accept-charset="UTF-8"><input name="FormType" type="hidden" value="recover_customer_password"/><input name="utf8" type="hidden" value="true"/>
-                        
-    
-                        <div class="col-sm-10 col-sm-offset-1">							
-                            <div class="col-sm-12">							
-                                <h2>Lấy lại mật khẩu</h2>					
-                                <p style="text-align:center;">Chúng tôi sẽ gửi email kích hoạt việc lấy lại mật khẩu.</p>
-                                <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" required class="input-focus">
-                            </div>
-                            <div class="forget col-sm-6">
-                                <a href="javascript:;" onclick="hideRecoverPasswordForm();return false;">Quay lại</a>
-                            </div>
-                            <div class="col-sm-12">								
-                                <input type="submit" class="taberna-btn bg-color" value="Gửi">
-                            </div>
-                        </div>
-                        </form>
-                    </div>
-                </div> <!-- end login-form-wrap -->
-            </div> <!-- end col-sm-8 -->
-        </div> <!-- end container -->
-    </section> <!-- end section-login -->
-    <div class="bottom-taitro">
-        <div class="doitac">
-            <h1>Nhà phân phối</h1>
-            <div class="logo_doitac">
-                <img src="/images/pp_1.jpg" alt="">
-                <img src="/images/pp_2.jfif" alt="">
-                <img src="/images/pp_3.jfif" alt="">
-                <img src="/images/pp_4.jpg" alt="">
-                <img src="/images/pp_5.jfif" alt="">
+    <div class="product">
+        <div class="product_title">
+            <h2>Sản phẩm nổi bật</h2>
+        </div>
+        <div class="product_row">
+            <div class="product_row-son">
+                <img src="/images/product_1.png" alt="">
+                <p class="ten">Dưa Hấu Không Hạt Mặt Trời Đỏ</p>
+                <p class="gia">Giá 70.000VND/KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_2.png" alt="">
+                <p class="ten">Thịt Vịt Trời Sạch Nguyên Con- Trang Trại</p>
+                <p class="gia">120.000 VND /CON</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_3.png" alt="">
+                <p class="ten">Bơ sáp da xanh</p>
+                <p class="gia">75.000 VNĐ /KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_4.png" alt="">
+                <p class="ten">Thanh Long Ruột Đỏ</p>
+                <p class="gia">120.000VND /KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
             </div>
         </div>
+        <div class="product_row">
+            <div class="product_row-son">
+                <img src="/images/product_5.png" alt="">
+                <p class="ten">Bưởi Da Xanh Bi</p>
+                <p class="gia">Giá 80.000VND /KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_6.png" alt="">
+                <p class="ten">Cá nục khô tẩm Quảng Ngãi</p>
+                <p class="gia">Giá 220.000VND /KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_7.png" alt="">
+                <p class="ten">Ruốc khô đặc sản Quảng Ngãi 1KG</p>
+                <p class="gia">Giá 175.000VND /KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_8.png" alt="">
+                <p class="ten">Gạo ST 25 Túi 5 Kg</p>
+                <p class="gia">Giá 170.000VND/ Túi</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+        </div>
+        <div class="product_row">
+            <div class="product_row-son">
+                <img src="/images/product_9.jpg" alt="">
+                <p class="ten">Trứng gà</p>
+                <p class="gia">Giá 40.000VND/10 quả</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_10.jpg" alt="">
+                <p class="ten">Vải thiều</p>
+                <p class="gia">160.000 VND /KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_11.png" alt="">
+                <p class="ten">Nhãn lồng Hưng Yên</p>
+                <p class="gia">230.000 VNĐ /KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+            <div class="product_row-son">
+                <img src="/images/product_12.jpg" alt="">
+                <p class="ten">Cá Ba Sa</p>
+                <p class="gia">420.000VND /KG</p>
+                <button class="add_to_cart" title="Mua ngay" type="submit"> Mua ngay</button>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-taitro">
         <div class="infor">
             <div class="theodoi">
                 <div class="col-lg-3 col-md-3">
@@ -240,6 +266,5 @@
             </div>
         </div>
     </div>
-    <script src="/js/loginscript.js"></script>
 </body>
 </html>

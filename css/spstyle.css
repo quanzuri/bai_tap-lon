@@ -1,24 +1,14 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    height: 2000px;
     width: 1460px;
-    margin: 0;
-    height: 1600px;
 }
-#wrapper{
-    width: 1460px;
-    margin: 0;
-    height: 5200px;
+.menu-top{
+    border-bottom: 1px solid rgb(150, 147, 147);
 }
-.menu-top .container{
+.container{
     left: 150px;
     padding-top: 5px;
     display: flex;
-    border-bottom: 1px solid rgb(167, 165, 165);
     
 }
  .top{
@@ -78,6 +68,9 @@ height: 100px;
     width: 530px;
     display: flex;
 }
+.container-right-top a h2{
+    color: rgb(134, 116, 101); 
+}
 .top-icons img{
     width: 30px;
     height: 25px;
@@ -89,6 +82,9 @@ height: 100px;
     margin-top: 0px;
     margin-left: -50px;
     align-items: center;
+}
+.container-right-bottom a h2{
+    color: rgb(134, 116, 101);
 }
 .search {
     display: flex;
@@ -132,93 +128,62 @@ height: 100px;
     margin-left: 10px;
     text-align: center;
 }
-/* .intro-menu-search{
-    float: left;
-    padding: 3px 10px;
+.backhome{
+    margin-top: 15px;
+}
+.product{
+    color: rgb(134, 116, 101);
+}
+.product_title{
+    margin-left: 610px;
+}
+.product_row{
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+.product_row-son{
+    justify-content: space-around;
+    width: 300px;
+    height: 400px;
+}
+.product_row-son img{
+    border-radius: 6px;
+    width: 195px;
+    height: 225px;
+}
+.product_row-son .ten{
+    padding-top: 15px;
+    text-align: center;
+    width: 190px;
+    height: 35px;
+}
+.product_row-son .gia{
+    text-align: center;
+    padding-top: 10px;
+    width: 190px;
+    height: 35px;
+}
+.add_to_cart{
+    margin-left: 48px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 92px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(134, 116, 101);
+}
+.thucpham img{
+    width: 1460px;
+    height: 382px;
     position: relative;
-    margin-top: -5px;
-} */
-.intro-menu-search .nav-search button {
-    background-color: transparent;
-    border: none;
+}
+.thucpham p{
+    margin-left: 1000px;
+    color: rgb(255, 255, 255);
+    margin-top: -15%;
     position: absolute;
-    top: 11px;
-    left: 16px;
-}
-.menuhome .container{
-    color: rgb(167, 165, 165);
-}
-.menuhome .container .backhome a span{
-    color: rgb(167, 165, 165);
-} 
-.section-login {
-	padding-top: 50px;
-	padding-bottom: 70px;
-}
-.section-login .login-form-wrap {
-	background-color: rgba(250, 250, 250, 0.85);
-	border: 1px solid #e5e5e5;
-	padding-top: 80px;
-	padding-bottom: 90px;
-}
-.section-login input {
-	width: 100%;
-}
-.section-login input[type="text"],
-.section-login input[type="email"],
-.section-login input[type="password"] {
-	height: 69px;
-	padding-left: 30px;
-	padding-right: 30px;
-	border: 1px solid #b5b5b5;
-	-webkit-transition: .2s border;
-	transition: .2s border;
-}
-.section-login input[type="text"],
-.section-login input[type="email"],
-.section-login input[type="password"],
-.section-login .forget,
-.section-login .sign-up {
-	margin-top: 32px;
-}
-.section-login h1 {
-	font-size: 35px;
-	text-transform: uppercase;
-	text-align: center;
-}
-.section-login .taberna-btn {
-	border: none;
-	height: 53px;
-	margin-top: 40px;
-	-webkit-transition: .2s background, .2s color;
-	transition: .2s background, .2s color;
-	background: #5ab642;
-
-}
-.section-login .taberna-btn:hover {
-	background-color: #e6e6e6;
-	color: #979797;
-}
-.section-login ::-webkit-input-placeholder {
-	color: #8a8a8a;
-}
-.section-login ::-moz-placeholder {
-	color: #8a8a8a;
-}
-.section-login :-ms-input-placeholder {
-	color: #8a8a8a;
-}
-.section-login .forget a {
-	color: #545454;
-}
-.section-login .forget a:hover {
-	text-decoration: underline;
-}
-.section-login .sign-up {
-	text-align: right;
-}
-.section-login .sign-up a:hover {
-	text-decoration: underline;
+    font-size: 35px;
 }
 .bottom-taitro{
     color: rgb(134, 116, 101);
