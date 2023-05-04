@@ -14,16 +14,19 @@ body {
     margin: 0;
     height: 5200px;
 }
+.menu-top{
+    width: 1460px;
+    border-bottom: 1px solid rgb(167, 165, 165);
+}
 .menu-top .container{
     left: 150px;
     padding-top: 5px;
     display: flex;
-    border-bottom: 1px solid rgb(167, 165, 165);
     
 }
  .top{
 
-    margin-right: 100px;
+    margin-left: -100px;
     width: 1360px;
     display: flex;
 } 
@@ -35,11 +38,12 @@ body {
     justify-content: space-between; 
 
 }
-.top-container-left{
-    padding-top: 50px;
+.top_container-left{
+    padding-top: 0px;
     display: flex;
     width: 210px;
     height: 110px;
+    margin-left: 100px;
 } 
 .top_container-left img{
     margin-left: -70px;
@@ -50,6 +54,7 @@ body {
 padding-top: 25px;
 width: 800px;
 height: 100px;
+margin-right: -125px;
 }
 .container-right-top{
     display: flex;
@@ -132,21 +137,11 @@ height: 100px;
     margin-left: 10px;
     text-align: center;
 }
-/* .intro-menu-search{
-    float: left;
-    padding: 3px 10px;
-    position: relative;
-    margin-top: -5px;
-} */
-.intro-menu-search .nav-search button {
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 11px;
-    left: 16px;
-}
 .menuhome .container{
     color: rgb(167, 165, 165);
+}
+.backhome{
+    margin-top: 15px;
 }
 .menuhome .container .backhome a span{
     color: rgb(167, 165, 165);

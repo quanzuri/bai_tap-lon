@@ -3,6 +3,7 @@ body{
     width: 1460px;
 }
 .menu-top{
+    width: 1460px;
     border-bottom: 1px solid rgb(150, 147, 147);
 }
 .container{
@@ -12,8 +13,7 @@ body{
     
 }
  .top{
-
-    margin-right: 100px;
+    margin-left: -100px;
     width: 1360px;
     display: flex;
 } 
@@ -25,11 +25,12 @@ body{
     justify-content: space-between; 
 
 }
-.top-container-left{
-    padding-top: 50px;
+.top_container-left{
+    padding-top: 0px;
     display: flex;
     width: 210px;
     height: 110px;
+    margin-left: 100px;
 } 
 .top_container-left img{
     margin-left: -70px;
@@ -40,6 +41,7 @@ body{
 padding-top: 25px;
 width: 800px;
 height: 100px;
+margin-right: -125px;
 }
 .container-right-top{
     display: flex;

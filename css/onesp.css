@@ -1,0 +1,106 @@
+.body-onesp{
+    height: 2500px;
+}
+.review{
+    padding-top: 50px;
+    padding-left: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+.review-img img{
+    border-radius: 5px;
+    width: 450px;
+    height: 440px;
+}
+.review-right{
+    padding-left: 120px;
+    width: 520px;
+    height: 440px;
+    color: rgb(134, 116, 101);
+}
+.review-right .review-title{
+    font-size: 17px;
+    font-family:  Arial;
+    color: rgb(134, 116, 101)hjgvghjkjg;
+}
+.review-title h2{
+    font-size: 25px;
+    border-bottom: 1px solid rgb(157, 162, 153);
+    height: 55px;
+}
+.review-title .gia{
+    margin-top: 25px;
+    color: rgb(122, 166, 64);
+}
+.demo{
+    border-bottom: 1px solid rgb(157, 162, 153);
+    height: 125px;
+}
+.form-product form{
+    align-items: center;
+    padding-left: 0px;
+    padding-top: 25px;
+    display: flex;
+}
+.quantity-span{
+    font-size: 18px;
+}
+.quantity-inner input{
+    text-align: center;
+    margin-left: 15px;
+    height: 45px;
+    width: 66px;
+}
+.product-cart button{
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 2px;
+    margin-left: 20px;
+    background: rgb(240, 173, 78);
+    width: 172px;
+    height: 45px;
+}
+.mota{
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 1150px;
+    color: rgb(134, 116, 101);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.mota h2{
+    width: 180px;
+    height: 35px;
+    color: black;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(123, 167, 64);
+}
+.title1{
+    margin-top: 55px;
+}
+.title2 p{
+    margin-top: 23px;
+}
+.minhhoa{
+    margin-top: 65px;
+}
+.minhhoa-img img{
+    border-radius: 1.5px;
+    margin-left: 15px;
+    height: 316px;
+    width: 465px;
+}
+.minhhoa-img{
+    margin-top: 30px;
+    display: flex;
+    padding-left: 120px;
+}
+.product{
+    margin-top: 55px;
+}
+.product_row{
+    margin-top: 35px;
+}
+.bottom-taitro{
+    margin-top: -450px;
+}
