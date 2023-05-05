@@ -1,0 +1,82 @@
+
+#body-story{
+    margin: 0;
+    padding: 0;
+    color: rgb(134, 116, 101);
+}
+.header{
+    margin-top: 55px;
+    display: flex;
+}
+.header .header-title{
+    background-color: rgb(241, 249, 255);
+    width: 730px;
+    height: 437px;
+}
+.header-img img{
+    width: 730px;
+    height: 437px;
+}
+.header-title h2{
+    font-size: 38px;
+    width: 485px;
+    margin-left: 188px;
+    margin-top: 90px;
+}
+.header-title .kt{
+    width: 122px;
+    height: 65px;
+    border-bottom: 5px solid rgb(191, 215, 234);
+}
+.header-title .speak{
+    margin-top: 36px;
+    font-size: 40px;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 35px;
+    margin-left: 424px;
+    width: 688px;
+}
+.footer .footer-header{
+    height: 120px;
+    border-bottom: 1px solid rgb(80, 140, 164);
+}
+.footer .footer-center img{
+    margin-left: -130px;
+    width: 930px;
+    height: 696px;
+}
+.comment{
+    display: flex;
+    color: rgb(42, 96, 73);
+    margin-left: 140px;
+    border-top: 5px solid rgb(175, 224, 243);
+    width: 358px;
+    height: 304px;
+    font-size: 18px;
+    background-color: rgb(235, 249, 255);
+}
+.comment .kitu{
+    margin-top: -25px;
+    color: rgb(175, 224, 243);
+    font-size: 150px;
+}
+.comment .comment-title{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-size: 16px;
+    width: 282px;
+    height: 212px;
+}
+.comment h4{
+    width: 110px;
+    margin-left: 18px;
+    padding-top: 10px;
+    border-top: 3px solid rgb(175, 224, 243);
+}
+.ki{
+    text-align: right;
+    font-style: italic;
+}

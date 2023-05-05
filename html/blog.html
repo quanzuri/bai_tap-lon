@@ -4,170 +4,270 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/spstyle.css">
     <link rel="stylesheet" href="/css/blogstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <title>Nông sản việt</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Blog</title>
 </head>
 <body>
-    <div id="wrapper">
-        <div class="container">
-            <div class="top">
-                <div class="top_container">
-                    <div class="top_container-left">
-                        <img src="/images/logo.png" alt="">
-                    </div>
-                    <div class="top_container-right">
-                        <div class="container-right-top">
-                            <div class="top-icons">
-                                <img src="/images/iocn_1.png" alt="">
-                            </div>
-                            <div class="top-icons">
-                                <img src="/images/icon_2.png" alt="">
-                            </div>
-                            <div class="top-icons">
-                                <img src="/images/icon_3.png" alt="">
-                            </div>
-                            <div class="top-icons">
-                                <img src="/images/icon_4.png" alt="">
-                            </div>
-                            <div class="container-title">
-                               <a href="/html/login.html"><h2>Đăng nhập</h2></a>
-                            </div>
-                            <div class="container-title">
-                                <a href="/html/login.html"><h2>Đăng ký</h2></a>
-                            </div>
-                            <div class="intro-menu-search">
-                                <form action="/search" method="get" class="nav-search">
-                                    <input type="text" name="query" placeholder="Tìm kiếm" class>
-                                    <button type="submit">
-                                        <span>
-                                            <i class="fa fa-search" aria-hidden="true"></i>
-                                        </span>
-                                    </button>
-                                </form>
-                            </div>
+    <div id="body-blog">
+        <div class="menu-top">
+            <div class="container">
+                <div class="top">
+                    <div class="top_container">
+                        <div class="top_container-left">
+                            <img src="/images/logo.png" alt="">
                         </div>
-                        <div class="container-right-bottom">
-                            <div class="container-title">
-                                <a href="/html/home.html"><h2>Trang chủ</h2></a>
+                        <div class="top_container-right">
+                            <div class="container-right-top">
+                                <div class="top-icons">
+                                    <img src="/images/iocn_1.png" alt="">
+                                </div>
+                                <div class="top-icons">
+                                    <img src="/images/icon_2.png" alt="">
+                                </div>
+                                <div class="top-icons">
+                                    <img src="/images/icon_3.png" alt="">
+                                </div>
+                                <div class="top-icons">
+                                    <img src="/images/icon_4.png" alt="">
+                                </div>
+                                <div class="container-title">
+                                    <a href="/html/login.html"><h2>Đăng nhập</h2></a>
+                                </div>
+                                <div class="container-title">
+                                    <a href="/html/login.html"><h2>Đăng ký</h2></a>
+                                </div>
+                                <div class="intro-menu-search">
+                                    <form action="/search" method="get" class="nav-search">
+                                        <input type="text" name="query" placeholder="Tìm kiếm" class>
+                                        <button type="submit">
+                                            <span>
+                                                <i class="fa fa-search" aria-hidden="true"></i>
+                                            </span>
+                                        </button>
+                                    </form>
+                                </div>
                             </div>
-                            <div class="container-title">
-                                <h2>Giới thiệu</h2>
-                            </div>
-                            <div class="container-title">
-                                <a href="/html/sp.html"><h2>Sản phẩm</h2></a>
-                                <i class="fa fa-angle-down"></i>
-                            </div>
-                            <div class="container-title">
-                                <h2>Blog</h2>
-                            </div>
-                            <div class="container-title">
-                                <h2>Tuyển dụng</h2>
-                            </div>
-                            <div class="container-title">
-                                <h2>Liên hệ</h2>
-                            </div>
-                            <div class="shopping-cart">
-                                <a class="hover-color" href="/cart">
-                                    <i class="fa fa-shopping-cart"></i>
-                                    " Giỏ hàng ("
-                                    <span class="count">0</span>
-                                    ")"
-                                </a>
+                            <div class="container-right-bottom">
+                                <div class="container-title">
+                                    <a href="/html/home.html"><h2>Trang chủ</h2></a>
+                                </div>
+                                <div class="container-title">
+                                    <h2>Giới thiệu</h2>
+                                </div>
+                                <div class="container-title">
+                                    <a href="/html/sp.html"><h2>Sản phẩm</h2></a>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="container-title">
+                                    <h2>Blog</h2>
+                                </div>
+                                <div class="container-title">
+                                    <h2>Tuyển dụng</h2>
+                                </div>
+                                <div class="container-title">
+                                    <h2>Liên hệ</h2>
+                                </div>
+                                <div class="shopping-cart">
+                                    <a class="hover-color" href="/cart">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        " Giỏ hàng ("
+                                        <span class="count">0</span>
+                                        ")"
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="infor">
-            <div class="theodoi">
-                <div class="col-lg-3 col-md-3">
-                    <h6 class="title-news">THEO DÕI BẢN TIN</h6>
-                    <div class="newsletters">
-                        <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <div class="form-group">
-                                <input class="input-mail" id="mce-EMAIL" type="email" name="EMAIL" size="18" placeholder="Nhập email" value="" autocorrect="off" autocapitalize="off" required/>
-                                <button type="submit" name="submitNewsletter" class="bgcolor-hover border-hover btn btn-warning btn-submit subcribe " id="mc-embedded-subscribe"> <span>Đăng ký</span> </button>
-                            </div>
-                        </form>
-                    </div>
-                    <p class="newsletters-note">Nhận được những thông tin mới nhất từ website</p>
-                    <div >
-                        <a class="grouped_elements" rel="group1" href="http://www.online.gov.vn/CustomWebsiteDisplay.aspx?DocId=17852">
-                            <img src="//bizweb.dktcdn.net/100/288/529/themes/628280/assets/client6.png?1547996338894" alt="http://www.online.gov.vn/CustomWebsiteDisplay.aspx?DocId=17852&amp;fbclid=IwAR0Jvwz9bid2e0mYjjm83_O9wFgA00ztix8Z5GKghGj4y7-4q5sVfjg4Xmo">
-                        </a>
-                    </div>
-                </div>
+        <div class="menuhome" >
+            <div class="container" style="padding: 0px 18px;" >
+                <div class="backhome" itemscope itemtype="">
+                    <a itemprop="url" title="Quay lại trnag chủ" href="/html/home.html">
+                        <span itemprop="title">Trang chủ</span>
+                    </a>
+                    <i class="fa fa-angle-right" aria-hidden="false"></i>
+                    Blog
+                </div>           
             </div>
-            <div class="CTY">
-                <h6>Công ty thương mại và dịch vụ</h6>
-                <div class="cty">
-                    <div class="fa fa-home border"></div>
-                    <div class="inforcty">
-                        <h6>Trụ sở tại Hà Nội</h6>
-                        <p>Số 67 ngõ 192, phố Lê Trọng Tấn, P. Định Công, Q. Hoàng Mai, HN.
-
-                            Email: congty@tradaigia.vn</p>
-                    </div>
-                </div>
-                <div class="cty">
-                    <div class="fa fa-map-marker border"></div>
-                    <div class="inforcty">
-                        <h6>Chi nhánh tại TPHCM</h6>
-                        <p>Số 394/4 - đường TTH 07, phường Tân Thới Hiệp, Quận 12, TP.HCM
-
-                            Email: chinhanh@tradaigia.vn</p>
-                    </div>
-                </div>
-                <div class="cty">
-                    <div class="fa fa-home border"></div>
-                    <div class="inforcty">
-                        <h6>Nhà máy tại Thái Nguyên</h6>
-                        <p>Xóm Đồng Lạnh, xã Phúc Xuân, TP.Thái Nguyên, tỉnh Thái Nguyên.</p>
-                    </div>
-                </div>
-                <div class="cty">
-                    <div class="fa fa-mobile border"></div>
-                    <div class="inforcty">
-                        <h6>Hotline</h6>
-                        <p>0902.210.348</p>
-                    </div>
-                </div>
+        </div>
+        <div class="blog">
+            <div class="blog-vaithieu">
+                <h2>Vải thiều và câu chuyện xây dựng thương hiệu</h2>
+                <img class="vd" src="/images/blog1.jpg" alt="">
+                <p>Câu chuyện về trái vải thiều được định giá rất cao ở thị trường nước ngoài đang một lần 
+                    nữa cho thấy việc cần thiết xây dựng thương hiệu cho các loại nông sản Việt. Việt Nam có 
+                    rất nhiều loại nông sản chinh phục thành công người tiêu dùng, song việc chưa xây dựng được 
+                    thương hiệu đã khiến không ít sản phẩm thường xuyên đối mặt nỗi lo “được mùa mất giá”.</p>
+                    <img src="/images/blog2.jpg" alt="">
+                    <p>Chỉ cách đây một vài tháng, câu chuyện gạo ST25 liên tiếp bị doanh nghiệp nước ngoài đăng
+                         ký nhãn hiệu tại các thị trường xuất khẩu lớn như Mỹ, Australia đã gióng lên hồi chuông 
+                         cảnh báo cho việc doanh nghiệp nội quá chậm chân, mặc dù giải thưởng “Gạo ngon nhất thế giới” 
+                         năm 2019 được coi là bàn đạp rất chắc chắn để xây dựng thương hiệu và nâng cao giá trị cho gạo ST25.</p>
+                    <p>Chỉ cách đây một vài tháng, câu chuyện gạo ST25 liên tiếp bị doanh nghiệp nước ngoài đăng ký nhãn hiệu tại
+                         các thị trường xuất khẩu lớn như Mỹ, Australia đã gióng lên hồi chuông cảnh báo cho việc doanh nghiệp nội 
+                         quá chậm chân, mặc dù giải thưởng “Gạo ngon nhất thế giới” năm 2019 được coi là bàn đạp rất chắc chắn để
+                          xây dựng thương hiệu và nâng cao giá trị cho gạo ST25.</p>
+                    <p>Hiện nay, Việt Nam đã có hàng loạt các sản phẩm được xuất khẩu thành công ra nước ngoài, trong đó có nhiều
+                         loại nông sản như gạo, hạt tiêu, điều, thủy sản… Ông Vũ Bá Phú, Cục trưởng Cục Xúc tiến thương mại (Bộ Công thương)
+                          cho biết, các Hiệp định thương mại tự do (FTA) mà Việt Nam tham gia đang mở ra cơ hội xuất khẩu cho sản phẩm hàng
+                           hóa Việt Nam. Nếu trước đây các sản phẩm của Việt Nam trước đây chỉ nổi tiếng trong nước thì nay có cơ hội vươn
+                            ra tiếp cận nhiều hơn đến thị trường xuất khẩu trên thế giới đặc biệt là các thị trường mà Việt Nam có FTA.</p>
+                    <p>Trong báo cáo của Brand Finance và hàng loạt báo cáo của các thương hiệu khác thì thương hiệu các sản phẩm của Việt Nam 
+                        ngày càng được thị trường thế giới biết đến nhiều hơn và có giá trị ngày càng cao. Vào những năm gần đây có rất nhiều 
+                        thương hiệu của Việt Nam đã được lọt vào Top 500 hoặc Top 100 các sản phẩm thương hiệu nổi tiếng và có giá trị trên
+                         thế giới như Viettel, VNPT… Song các thương hiệu nông sản thì vẫn vắng bóng trong các bảng xếp hạng này.</p>
+                    <p>Ông Vũ Xuân Trường, chuyên gia thương hiệu, Viện Nghiên cứu chiến lược cạnh tranh và thương hiệu (BCSI) chia sẻ thêm,
+                         đối với các thương hiệu nông sản nổi tiếng, chúng ta mới đặt được nền móng ban đầu, còn việc xây dựng và phát triển
+                          thương hiệu chưa làm được nhiều. Thực tế cho thấy việc bảo vệ thương hiệu nông sản ở nước ta còn tồn tại rất nhiều 
+                          bất cập. Những vụ việc như đánh mất những chỉ dẫn địa lý, nhãn hiệu hàng hóa nông sản không còn là câu chuyện mới 
+                          nhưng làm thế nào để hạn chế tình trạng này là vấn đề không đơn giản. </p>
+                    <p>Theo thống kê của Cục Sở hữu Trí tuệ, hiện nay có khoảng hơn 20% nhãn hiệu nông sản Việt Nam được đăng ký, tình trạng
+                         các nhãn hiệu hàng hóa bị xâm phạm ngày càng tăng. Trong thời gian vừa qua, nhiều thương hiệu nông sản nổi tiếng bị 
+                         đánh cắp như cà phê Buôn Mê Thuột, Trung Nguyên… là minh chứng rõ ràng cho vấn đề này. </p>
+                    <p>“Vấn đề đặt ra là cần nhanh chóng xây dựng và bảo vệ được thương hiệu của các hàng hóa nông sản ở nước ta. Nhiều địa phương 
+                        đã chi rất nhiều tiền cho việc xây dựng thương hiệu nhưng kết quả đạt được còn rất nhỏ. Nếu các doanh nghiệp, địa phương
+                         không bảo vệ thương hiệu của mình thì chính người tiêu dùng trong nước cũng không tín nhiệm”, ông Trường chỉ rõ.</p>
+                    <img src="/images/blog3.jpg" alt="">
+                    <p>Dưới góc độ là doanh nghiệp đã có nhiều năm đưa sản phẩm thâm nhập vào các thị trường lớn trên thế giới, ông Lê Bá Linh, 
+                        Chủ tịch HĐQT Công ty CP Facific Foods cho biết, nông sản của Việt Nam rất tiềm năng. Đặc biệt là các loại trái cây 
+                        nhiệt đới như vải, thanh long, mít, xoài, nhãn, bưởi… Việc xuất khẩu hàng Việt Nam ra thế giới không chỉ để khẳng định 
+                        tên tuổi Việt Nam mà đó còn là cách riêng bảo vệ chủ quyền thiêng liêng của Tổ quốc, bằng việc tuân thủ chất lượng và uy 
+                        tín để từ đó nâng mức tín nhiệm của Quốc gia lên thông qua việc đưa các sản phẩm chất lượng ra thế giới.</p>
+                    <p>“Tuy nhiên, bài học từ câu chuyện của trái vải thiều đã chinh phục thành công nhiều thị trường khó tính trong khối EU cho thấy,
+                         muốn các sản phẩm nông sản vươn đi các nước, đầu tiên phải tuân thủ chất lượng sản phẩm, không dùng phân bón hoá học, trồng 
+                         theo tiêu chuẩn GlobalGab, VietGab và Organic. Sở hữu sản phẩm có chất lượng rồi mới tính đến chuyện làm marketing để xây 
+                         dựng và khẳng định thương hiệu”, ông Lê Bá Linh cho hay.</p>
+                    <p>Dưới góc độ người làm nghiên cứu, ông Vũ Xuân Trường chỉ rõ, để có thể nâng cao giá trị và thương hiệu nông sản Việt trên thị 
+                        trường quốc tế, nhà quản lý cũng như DN Việt cần có được một chiến lược xây dựng thương hiệu và truyền thông mạnh mẽ để có
+                         thể mở rộng thị phần xuất khẩu trên thị trường thế giới. Các DN cần phải chú trọng hơn trong việc nâng cao chất lượng sản
+                          phẩm và lưu tâm đến câu chuyện xây dựng thương hiệu, qua đó để các sản phẩm nông sản của chúng ta có thể xuất khẩu với giá
+                           trị lớn và bền vững. Đặc biệt, việc xây dựng thương hiệu cho nông sản của Việt Nam rất cần phải có một đầu mối chung, đó 
+                           chính là khai thác được thế mạnh của thương hiệu quốc gia gắn với các chỉ dẫn địa lý. Đây là một trong những định hướng mà
+                            rất nhiều quốc gia lớn trên thế giới đã làm.</p>
+                    <p>Thực tế, người Thái Lan có cách làm thương hiệu rất đáng học học. Đơn cử, khi giống gạo Jasmine của Thái Lan đạt danh hiệu gạo
+                         ngon nhất thế giới năm 2020, Chính phủ Thái Lan cam kết sẽ nhân rộng giống gạo này và bán cho toàn thế giới. Việc này khiến
+                          người tiêu dùng ở thị trường nhập khẩu trông chờ gạo sẽ sớm được nhập khẩu và sử dụng. Các doanh nghiệp xuất khẩu tại Thái Lan 
+                          cũng nhanh chóng xây dựng thương hiệu riêng cho loại gạo này và dù có lấy tên thương hiệu như thế nào thì việc được làm từ 
+                          giống Jasmine ngon nhất thế giới cũng được ghi rõ trên bao bì. Đây là cách xây dựng thương hiệu mà Việt Nam có thể học hỏi 
+                          để vừa tận dụng được cơ hội, vừa không gây tốn quá nhiều chi phí.</p>
+                    <img class="vd" src="/images/blog4.jpg" alt="">
+                    <p>Xây dựng là chưa đủ, để có thể bảo vệ thương hiệu nông sản Việt Nam trên cả thị trường nội địa và quốc tế, nền sản xuất nông 
+                        nghiệp của Việt Nam cần một chiến lược quy hoạch tổng thể kết hợp với công nghiệp hóa nông nghiệp nông thôn, đầu tư trang 
+                        thiết bị máy móc hiện đại phục vụ sản xuất và chế biến các sản phẩm nông nghiệp, áp dụng tiến bộ khoa học kỹ thuật, 
+                        tiến hành đồng thời với chuyên môn hóa trong sản xuất và chuyên môn hóa trong lưu thông. Bên cạnh đó, tăng cường mối quan hệ 
+                        thông tin giữa những người nông dân trực tiếp sản xuất với các nhà khoa học. Đặc biệt, cần tăng cường các biện pháp xúc 
+                        tiến thương mại cho ngành nông sản như xây dựng các hội chợ triển lãm, quảng bá, giới thiệu hàng nông sản Việt Nam trên 
+                        các tạp chí, báo, ấn phẩm trong và ngoài nước.</p>
+                    <p>Về phía doanh nghiệp sản xuất, chế biến, xuất khẩu nông sản phải chủ động trong việc tiếp nhận thông tin, nhận thức đúng được 
+                        vai trò, tầm quan trọng của việc xây dựng thương hiệu. Tăng cường đầu tư cho máy móc, trang thiết bị hiện đại kết hợp với 
+                        áp dụng tiến bộ khoa học kỹ thuật vào sản xuất, chế biến. Đầu tư cho nghiên cứu thị trường nhằm tạo ra sản phẩm phù hợp.
+                         Xây dựng các quy chuẩn cho sản phẩm nhằm bảo đảm về tính minh bạch của quy trình sản xuất.</p>
+                    <img class="caunoi" src="/images/blog5.jpg" alt="">
+                    <p>Ông Vũ Bá Phú cho biết thêm, trong bối cảnh hội nhập sâu rộng, các doanh nghiệp cần phải có ý thức xây dựng và bảo vệ thương
+                         hiệu của mình trên các thị trường xuất khẩu, đặc biệt là ở các thị trường xuất khẩu trọng điểm, ở các thị trường có FTA 
+                         bằng cách đăng ký bảo hộ sở hữu trí tuệ cho nhãn hiệu, cho sản phẩm xuất khẩu của mình. Đồng thời, thuê luật sư để theo 
+                         dõi về việc xâm phạm sở hữu trí tuệ và bản quyền nhãn hiệu thương mại của mình trên các thị trường xuất khẩu để có thể 
+                         có động thái cần thiết và kịp thời nhằm bảo vệ được thương hiệu của mình.</p>
             </div>
-            <div class="support">
-                <div class="widget-wrap">            
-                    <h6 class="title-news">Hỗ trợ</h6>
-
-                    <ul class="widget-ul links">
-                        
-                        <li class="clearfix">
-                            <i class="fa fa-angle-right"></i>
-                            <a href="/html/home.html" class="">Trang chủ</a>
-                        </li>
-                        
-                        <li class="clearfix">
-                            <i class="fa fa-angle-right"></i>
-                            <a href="/collections/all" class="">Sản phẩm</a>
-                        </li>
-                        
-                    </ul>
+        </div>
+        <div class="story">
+            <h3>Bài viết khác</h3>
+            <img src="/images/blog6.jpg" alt="">
+            <p>Tôi sẽ kể câu chuyện về trái cây, nông sản Việt ra toàn thế giới!</p>
+        </div>
+        <div class="bottom-taitro">
+            <div class="infor">
+                <div class="theodoi">
+                    <div class="col-lg-3 col-md-3">
+                        <h6 class="title-news">THEO DÕI BẢN TIN</h6>
+                        <div class="newsletters">
+                            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div class="form-group">
+                                    <input class="input-mail" id="mce-EMAIL" type="email" name="EMAIL" size="18" placeholder="Nhập email" value="" autocorrect="off" autocapitalize="off" required/>
+                                    <button type="submit" name="submitNewsletter" class="bgcolor-hover border-hover btn btn-warning btn-submit subcribe " id="mc-embedded-subscribe"> <span>Đăng ký</span> </button>
+                                </div>
+                            </form>
+                        </div>
+                        <p class="newsletters-note">Nhận được những thông tin mới nhất từ website</p>
+                        <div >
+                            <a class="grouped_elements" rel="group1" href="http://www.online.gov.vn/CustomWebsiteDisplay.aspx?DocId=17852">
+                                <img src="//bizweb.dktcdn.net/100/288/529/themes/628280/assets/client6.png?1547996338894" alt="http://www.online.gov.vn/CustomWebsiteDisplay.aspx?DocId=17852&amp;fbclid=IwAR0Jvwz9bid2e0mYjjm83_O9wFgA00ztix8Z5GKghGj4y7-4q5sVfjg4Xmo">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="connect">
-                <h6>Kết nối với chúng tôi</h6>
-                <div class="mxh">
-                    <img src="/images/iocn_1.png" alt="">
-                    <img src="/images/icon_2.png" alt="">
-                    <img src="/images/icon_3.png" alt="">
-                    <img src="/images/icon_4.png" alt="">
+                <div class="CTY">
+                    <h6>Công ty thương mại và dịch vụ</h6>
+                    <div class="cty">
+                        <div class="fa fa-home border"></div>
+                        <div class="inforcty">
+                            <h6>Trụ sở tại Hà Nội</h6>
+                            <p>Số 67 ngõ 192, phố Lê Trọng Tấn, P. Định Công, Q. Hoàng Mai, HN.
+    
+                                Email: congty@tradaigia.vn</p>
+                        </div>
+                    </div>
+                    <div class="cty">
+                        <div class="fa fa-map-marker border"></div>
+                        <div class="inforcty">
+                            <h6>Chi nhánh tại TPHCM</h6>
+                            <p>Số 394/4 - đường TTH 07, phường Tân Thới Hiệp, Quận 12, TP.HCM
+    
+                                Email: chinhanh@tradaigia.vn</p>
+                        </div>
+                    </div>
+                    <div class="cty">
+                        <div class="fa fa-home border"></div>
+                        <div class="inforcty">
+                            <h6>Nhà máy tại Thái Nguyên</h6>
+                            <p>Xóm Đồng Lạnh, xã Phúc Xuân, TP.Thái Nguyên, tỉnh Thái Nguyên.</p>
+                        </div>
+                    </div>
+                    <div class="cty">
+                        <div class="fa fa-mobile border"></div>
+                        <div class="inforcty">
+                            <h6>Hotline</h6>
+                            <p>0902.210.348</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="support">
+                    <div class="widget-wrap">            
+                        <h6 class="title-news">Hỗ trợ</h6>
+    
+                        <ul class="widget-ul links">
+                            
+                            <li class="clearfix">
+                                <i class="fa fa-angle-right"></i>
+                                <a href="/html/home.html" class="">Trang chủ</a>
+                            </li>
+                            
+                            <li class="clearfix">
+                                <i class="fa fa-angle-right"></i>
+                                <a href="/collections/all" class="">Sản phẩm</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="connect">
+                    <h6>Kết nối với chúng tôi</h6>
+                    <div class="mxh">
+                        <img src="/images/iocn_1.png" alt="">
+                        <img src="/images/icon_2.png" alt="">
+                        <img src="/images/icon_3.png" alt="">
+                        <img src="/images/icon_4.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="/js/loginscript.js"></script>
 </body>
 </html>

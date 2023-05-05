@@ -1,194 +1,50 @@
-* {
+#body-gioithieu{
+    margin: 0;
     padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    height: 2452px;
 }
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 1460px;
-    margin: 0;
-    height: 1600px;
-}
-#wrapper{
-    width: 1460px;
-    margin: 0;
-    height: 5200px;
-} 
-.top{
-
-    margin-right: 100px;
-    width: 1360px;
-    display: flex;
-} 
-.top_container{
-    display: flex;
-    width: 1460px;
-    height: 128px;
-    padding: 15px 100px;
-    justify-content: space-between; 
-
-}
-.top-container-left{
-    padding-top: 50px;
-    display: flex;
-    width: 210px;
-    height: 110px;
-} 
-.top_container-left img{
-    margin-left: -70px;
-    width: 180px;
-    height: 100px;
-}
-.top_container-right{
-padding-top: 25px;
-width: 800px;
-height: 100px;
-}
-.container-right-top{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 320px;
-    margin-bottom: -20px;
-    padding-bottom: 25px;
-    align-items: center;
-}
-.container-title{
-    margin-top: -8px;
-    display: flex;
-    font-size: 10px;
-    align-items: center;
-} 
-.container-title h2{
-    font-size: 15px;
-}
-.fa-angle-down{
-    margin-left: 5px;
-    margin-top: 15px;
-    align-items: center;
-}
-.container-right-top{
-    margin-left: 150px;
-    width: 530px;
-    display: flex;
-}
-.top-icons img{
-    width: 30px;
-    height: 25px;
-}
-.container-right-bottom{
-    width: 730px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0px;
-    margin-left: -50px;
-    align-items: center;
-}
-.search {
-    display: flex;
-    width: 240px;
-    height: 35px;
-    align-items: center;
-    border-radius: 6px;
-    border: 1px solid rgb(167, 165, 165);
-}
-
-.search img{
-    width: 15px;
-    height: 20px;
-    margin-left: 1px;
-}
-.container-right-bottom .search{
-    width: 168px;
-    justify-content: space-around;
-}
-.shopping-cart{
-    border: 1px solid #e9e2d5;
-    border-radius: 5px;
-    padding: 4px 15px;
-    margin-left: 10px;
-    text-align: center;
-}
-.section-login .taberna-btn:hover {
-	background-color: #e6e6e6;
-	color: #979797;
-}
-.section-login ::-webkit-input-placeholder {
-	color: #8a8a8a;
-}
-.section-login ::-moz-placeholder {
-	color: #8a8a8a;
-}
-.section-login :-ms-input-placeholder {
-	color: #8a8a8a;
-}
-.section-login .forget a {
-	color: #545454;
-}
-.section-login .forget a:hover {
-	text-decoration: underline;
-}
-.section-login .sign-up {
-	text-align: right;
-}
-.section-login .sign-up a:hover {
-	text-decoration: underline;
-}
-.bottom-taitro{
-    color: rgb(134, 116, 101);
-}
-.bottom-taitro .doitac h1{
-    text-align: center;
-    font-size: 30px;
-}
-.logo_doitac{
-    margin-left: 100px;
-    justify-content: space-between;
-}
-.bottom-taitro .doitac .logo_doitac img{
-    margin-left: 55px;
-    margin-top: 30px;
-    height: 120px;
-    width: 200px;
-}
-.infor{
+.title-gt {
+    width: 1160px;
+    margin-left: 165px;
     margin-top: 45px;
-    width: 1460px;
-    height: 505px;
-    background-color: rgb(233, 226, 213);
-    justify-content: space-around;
-    display: flex;
+    color: rgb(134, 116, 101);
+    font-family: Arial, Helvetica, sans-serif;
 }
-.theodoi{
-    width: 220px;
-    height: 440px;
-    margin-left: 120px;
+.title-gt h2{
+    font-size: 35px;
+    border-bottom:1px solid rgb(213, 195, 170);
+    height: 55px;
 }
-.grouped_elements img{
-    height: 150px;
-    width: 250px;
+.introduce{
+    margin-top: 20px;
 }
-.CTY{
-    width: 420px;
-    height: 440px;
+.introduce p{
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
 }
-.cty{
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
+.gt-sp h3{
+    margin-top: 35px;
+    font-size: 17px;
 }
-.inforcty{
-    margin-left: 10px;
+.mh-row p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.support{
-    /* width: 250px;
-    height: 440px; */
+.gt-sp p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.mxh img{
-    width: 35px;
-    height: 35px;
+.gt-sp .loiket{
+    margin-top: 55px;
 }
-.theodoi{
-    width: 220px;
-    height: 440px;
-    margin-left: 120px;
+.gt-sp .camon{
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+.gt-sp img{
+    height: 705px;
+    width: 1150px;
 }

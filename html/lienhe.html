@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/spstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body{
+        height: 1235px;
+    }
+    .lienhe{
+        margin-top: 45px;
+        color: rgb(134, 116, 101);
+        display: flex;
+        margin-left: 165px;
+        width: 1160px;
+    }
+    .lienhe-left,.lienhe-right{
+        width: 548px;
+    }
+    .lienhe-right{
+        margin-left: 25px;
+    }
+  </style>
+    <title>Liên hệ</title>
+</head>
+<body>
+    <div id="body-lienhe">
+        <div class="menu-top">
+            <div class="container">
+                <div class="top">
+                    <div class="top_container">
+                        <div class="top_container-left">
+                            <img src="/images/logo.png" alt="">
+                        </div>
+                        <div class="top_container-right">
+                            <div class="container-right-top">
+                                <div class="top-icons">
+                                    <img src="/images/iocn_1.png" alt="">
+                                </div>
+                                <div class="top-icons">
+                                    <img src="/images/icon_2.png" alt="">
+                                </div>
+                                <div class="top-icons">
+                                    <img src="/images/icon_3.png" alt="">
+                                </div>
+                                <div class="top-icons">
+                                    <img src="/images/icon_6.png" alt="">
+                                </div>
+                                <div class="container-title">
+                                    <a href="/html/login.html"><h2>Đăng nhập</h2></a>
+                                </div>
+                                <div class="container-title">
+                                    <a href="/html/login.html"><h2>Đăng ký</h2></a>
+                                </div>
+                                <div class="intro-menu-search">
+                                    <form action="/search" method="get" class="nav-search">
+                                        <input type="text" name="query" placeholder="Tìm kiếm" class>
+                                        <button type="submit">
+                                            <span>
+                                                <i class="fa fa-search" aria-hidden="true"></i>
+                                            </span>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="container-right-bottom">
+                                <div class="container-title">
+                                    <a href="/html/home.html"><h2>Trang chủ</h2></a>
+                                </div>
+                                <div class="container-title">
+                                    <h2>Giới thiệu</h2>
+                                </div>
+                                <div class="container-title">
+                                    <a href="/html/sp.html"><h2>Sản phẩm</h2></a>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <div class="container-title">
+                                    <h2>Blog</h2>
+                                </div>
+                                <div class="container-title">
+                                    <h2>Tuyển dụng</h2>
+                                </div>
+                                <div class="container-title">
+                                    <h2>Liên hệ</h2>
+                                </div>
+                                <div class="shopping-cart">
+                                    <a class="hover-color" href="/cart">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        " Giỏ hàng ("
+                                        <span class="count">0</span>
+                                        ")"
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menuhome" >
+            <div class="container" style="padding: 0px 18px;" >
+                <div class="backhome" itemscope itemtype="">
+                    <a itemprop="url" title="Quay lại trnag chủ" href="/html/home.html">
+                        <span itemprop="title">Trang chủ</span>
+                    </a>
+                    <i class="fa fa-angle-right" aria-hidden="false"></i>
+                    Liên hệ
+                </div>           
+            </div>
+        </div>
+        <div class="lienhe">
+            <div class="lienhe-left">
+                <h2 style="border-bottom: 1px solid rgb(134, 116, 101); height:45px;">Góp ý với chúng tôi</h2>
+                <p>Mọi góp ý của bạn sẽ giúp chúng tôi hoàn thiện hơn</p>
+                <div class="thongtin">
+                    <div class="name col-xs-12 col-sm-6" style="margin-left: -15px;">
+                        <label>Họ và tên*</label>
+                        <input style="height: 33px; width:264px; "type="text" name="contact[Name]" value required >
+                    </div>
+                    <div class="name col-xs-12 col-sm-6">
+                        <label>Email*</label>
+                        <input type="text" name="contact[Email]" value required style="height: 33px; width:264px;">
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <label style="margin-left: -15px;margin-top:25px">Lời nhắn*</label>
+                    <textarea style="height:216px;width:544px;margin-left: -15px;" name="contact[Body]" required></textarea>
+                </div>
+                <input style="height: 55px; width:170px; margin-top:40px;" type="submit" name="submit" class="taberna-btn bg-color" value="Gửi">
+            </div>
+            <div class="lienhe-right">
+                <h2 style="border-bottom: 1px solid rgb(134, 116, 101); height:45px;">Liên hệ với chúng tôi</h2>
+                <div class="cty">
+                    <div class="fa fa-home border"></div>
+                    <div class="inforcty">
+                        <p>Khu công nghiệp An Đồng, An Dương, Hải Phòng.
+
+                            Email: congty@nongsanviet.vn</p>
+                    </div>
+                </div>
+                <div class="cty">
+                    <div class="fa fa-mobile border"></div>
+                    <div class="inforcty">
+                        <p>0902.210.348</p>
+                    </div>
+                </div>
+                <img src="/images/lienhe.jpg" alt="" style="height: 350px; width: 560px; border-radius:2px">
+            </div>
+        </div>
+
+        <div class="bottom-taitro">
+            <div class="infor">
+                <div class="theodoi">
+                    <div class="col-lg-3 col-md-3">
+                        <h6 class="title-news">THEO DÕI BẢN TIN</h6>
+                        <div class="newsletters">
+                            <form action="#" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div class="form-group">
+                                    <input class="input-mail" id="mce-EMAIL" type="email" name="EMAIL" size="18" placeholder="Nhập email" value="" autocorrect="off" autocapitalize="off" required/>
+                                    <button type="submit" name="submitNewsletter" class="bgcolor-hover border-hover btn btn-warning btn-submit subcribe " id="mc-embedded-subscribe"> <span>Đăng ký</span> </button>
+                                </div>
+                            </form>
+                        </div>
+                        <p class="newsletters-note">Nhận được những thông tin mới nhất từ website</p>
+                        <div >
+                            <a class="grouped_elements" rel="group1" href="http://www.online.gov.vn/CustomWebsiteDisplay.aspx?DocId=17852">
+                                <img src="//bizweb.dktcdn.net/100/288/529/themes/628280/assets/client6.png?1547996338894" alt="http://www.online.gov.vn/CustomWebsiteDisplay.aspx?DocId=17852&amp;fbclid=IwAR0Jvwz9bid2e0mYjjm83_O9wFgA00ztix8Z5GKghGj4y7-4q5sVfjg4Xmo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="CTY">
+                    <h6>Công ty thương mại và dịch vụ</h6>
+                    <div class="cty">
+                        <div class="fa fa-home border"></div>
+                        <div class="inforcty">
+                            <h6>Trụ sở tại Hà Nội</h6>
+                            <p>Khu công nghiệp An Đồng, An Dương, Hải Phòng.
+    
+                                Email: congty@nongsanviet.vn</p>
+                        </div>
+                    </div>
+                    <div class="cty">
+                        <div class="fa fa-map-marker border"></div>
+                        <div class="inforcty">
+                            <h6>Chi nhánh tại TPHCM</h6>
+                            <p>Số 394/4 - đường TTH 07, phường Tân Thới Hiệp, Quận 12, TP.HCM
+    
+                                Email: congty@nongsanviet.vn</p>
+                        </div>
+                    </div>
+                    <div class="cty">
+                        <div class="fa fa-home border"></div>
+                        <div class="inforcty">
+                            <h6>Nhà máy tại Thái Nguyên</h6>
+                            <p>Xóm Đồng Lạnh, xã Phúc Xuân, TP.Thái Nguyên, tỉnh Thái Nguyên.</p>
+                        </div>
+                    </div>
+                    <div class="cty">
+                        <div class="fa fa-mobile border"></div>
+                        <div class="inforcty">
+                            <h6>Hotline</h6>
+                            <p>0902.210.348</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="support">
+                    <div class="widget-wrap">            
+                        <h6 class="title-news">Hỗ trợ</h6>
+    
+                        <ul class="widget-ul links">
+                            
+                            <li class="clearfix">
+                                <i class="fa fa-angle-right"></i>
+                                <a href="/html/home.html" class="">Trang chủ</a>
+                            </li>
+                            
+                            <li class="clearfix">
+                                <i class="fa fa-angle-right"></i>
+                                <a href="/collections/all" class="">Sản phẩm</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="connect">
+                    <h6>Kết nối với chúng tôi</h6>
+                    <div class="mxh">
+                        <img src="/images/iocn_1.png" alt="">
+                        <img src="/images/icon_2.png" alt="">
+                        <img src="/images/icon_3.png" alt="">
+                        <img src="/images/icon_4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
