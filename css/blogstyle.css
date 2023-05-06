@@ -39,11 +39,13 @@
     border-bottom: 2px solid rgb(134, 116, 101);
 }
 .story img{
-    width: 325px;
-    height: 325px;
+    width: 375px;
+    height: 308px;
+    border-radius: 2px;
 }
 .story p{
+    color: black;
     width: 325px;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 566px;
 }

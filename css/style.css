@@ -7,12 +7,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     width: 1460px;
     margin: 0;
-    height: 5200px;
+    height: 4940px;
 }
 #wrapper{
+    color: rgb(134, 116, 101);
     width: 1460px;
     margin: 0;
-    height: 5200px;
+    height: 4940px;
 }
 .container{
     width: 1460px;
@@ -135,19 +136,6 @@ margin-right: -125px;
     margin-left: 10px;
     text-align: center;
 }
-/* .intro-menu-search{
-    float: left;
-    padding: 3px 10px;
-    position: relative;
-    margin-top: -5px;
-}
-.intro-menu-search .nav-search button {
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    top: 11px;
-    left: 16px;
-} */
  .center-top_img img{
     width: 1460px;
     height: 560px;
@@ -276,4 +264,41 @@ margin-right: -125px;
     margin-top: -15%;
     position: absolute;
     font-size: 35px;
+}
+.video .videons{
+    border-radius: 2px;
+    margin-top: 35px;
+    height: 315px;
+    width: 560px;
+}
+.blog h2{
+    font-size: 27px;
+    text-align: center;
+}
+.baiviet{
+    display: flex;
+    padding-left: 340px;
+}
+.baiviet .baiviet1 img{
+    margin-top: 28px;
+    width: 375px;
+    height: 308px;
+    border-radius: 2px;
+}
+.baiviet .baiviet1 p{
+    margin-top: 15px;
+    font-size: 18px;
+    width: 375px;
+    font-family: Arial;
+    font-weight: 400;
+}
+.widget-wrap ul{
+    list-style: none;
+}
+.widget-wrap ul li{
+ 
+    margin-top: 15px;
+}
+.widget-wrap ul li a{
+    color: black;
 }

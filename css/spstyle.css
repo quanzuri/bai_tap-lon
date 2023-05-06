@@ -188,7 +188,7 @@ margin-right: -125px;
     font-size: 35px;
 }
 .bottom-taitro{
-    color: rgb(134, 116, 101);
+    color: black;
 }
 .bottom-taitro .doitac h1{
     text-align: center;
@@ -240,4 +240,14 @@ margin-right: -125px;
 .mxh img{
     width: 35px;
     height: 35px;
+}
+.widget-wrap ul{
+    list-style: none;
+}
+.widget-wrap ul li{
+ 
+    margin-top: 15px;
+}
+.widget-wrap ul li a{
+    color: black;
 }
