@@ -3,16 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
+.body-login{
     font-family: Arial, Helvetica, sans-serif;
     width: 1460px;
     margin: 0;
-    height: 1600px;
-}
-#wrapper{
-    width: 1460px;
-    margin: 0;
-    height: 4940px;
+    height: 1644px;
 }
 .menu-top{
     width: 1460px;
